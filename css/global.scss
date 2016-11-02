@@ -1,0 +1,90 @@
+*{box-sizing: border-box;}
+
+body{
+background-color: rgb(28, 114, 145);
+color: rgb(24, 50, 89);
+font-family: 'Questrial', sans-serif;
+}
+.tempDisplay{
+  padding-top: 70px;
+  // padding-bottom: 10px;
+  font-size: 150px;
+  padding-left: 20px;
+  color: rgb(24, 50, 89);
+}
+.container{
+  width: 75%;
+  height: 800px;
+}
+.buttonStuff{
+  display: inline-block;
+  width: 13vw;
+  background-color: transparent;
+  border: none;
+  color: rgb(24, 50, 89);
+  transition: .75s ease;
+  // text-decoration: underline;
+}
+.buttonStuff:hover{
+  background-color: rgb(28, 114, 145);
+  color: white;
+  text-decoration: underline;
+}
+.locationBody{
+  margin-top: 100px;
+}
+.newLocation{
+  color: white;
+  width: 50%;
+  font-size: 30px;
+  text-align: center;
+  height: 60px;
+  padding-top: 10px;
+  background-color: rgb(24, 50, 89);
+  border: 1px solid rgb(24, 50, 89);
+}
+.placeholder{
+  color: white;
+}
+.locateButton{
+  width: 50%;
+  height: 60px;
+  background-color: transparent;
+  font-size: 30px;
+  border: 1px solid rgb(24, 50, 89);
+  color: rgb(24, 50, 89);
+}
+.locateButton:hover{
+  background-color: white;
+  border: none;
+}
+.locationTitle{
+  font-size: 25px;
+}
+.headerStyle{
+  margin-top: 50px;
+}
+.cityName{
+  margin-bottom: 5px;;
+}
+#dateTime{
+  margin-bottom: 20px;
+}
+.condition{
+  font-size: 20px;
+}
+.fiveThings{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-top: 60px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  padding-left: 40px;
+}
+.weatherLogo{
+  font-size: 40px;
+}
+.loTemp{
+  color: rgb(27, 43, 68);
+}
